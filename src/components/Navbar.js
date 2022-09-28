@@ -7,23 +7,19 @@ const Navbar = () => {
 
     const items = [
         {
-            id: 1,
-            item: "Home"
-        },
-        {
-            id: 2,
+            id: "01.",
             item: "About"
         },
-        // {
-        //     id: 3,
-        //     item: "Projects"
-        // },
+        {
+            id: "02.",
+            item: "Work"
+        },
         // {
         //     id: 4,
         //     item: "Education"
         // },
         {
-            id: 5,
+            id: "05.",
             item: "Contact"
         }
     ]
@@ -31,21 +27,28 @@ const Navbar = () => {
     const [menu, setMenu] = useState(false);
 
     return (
-        <div className="flex justify-center items-center w-full h-20 text-white  backdrop-blur bg-black/70
-        px-4 fixed shadow-xl">
+        <div className="flex justify-center items-center w-full h-20 text-white backdrop-blur bg-black/70
+        px-4 fixed shadow-xl z-50">
             <div className="max-w-screen-lg flex justify-between items-center w-full">
                 <Link to="Home" smooth duration={500}>
-                    <img className="w-20 cursor-pointer hover:scale-95 duration-200" src={logo} alt="Logo"></img>
+                    <img className="w-20 cursor-pointer hover:scale-95 duration-200" src={logo} alt="Logo"
+                        data-aos="flip-up"
+                        data-aos-once="true"></img>
                 </Link>
 
 
-                <ul className="hidden md:flex">
+                <ul className="hidden md:flex"
+                    data-aos="fade-down"
+                    data-aos-once="true">
                     {items.map(({ id, item }) => (
-                        <li key={id} className="px-4 cursor-pointer text-gray-300  duration-100 hover:text-gray-50 hover:scale-105">
-                            <Link to={item} smooth duration={500}>
-                                {item}
-                            </Link>
-                        </li>
+                        <>
+                            <li key={id} className="px-4 cursor-pointer text-secondary hover:text-primary duration-200">
+                                <Link to={item} smooth duration={500}>
+                                    <a key={id} href={item} className="text-primary pr-2">{id}</a>
+                                    {item}
+                                </Link>
+                            </li>
+                        </>
                     ))}
                 </ul>
 
