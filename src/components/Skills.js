@@ -23,7 +23,7 @@ const Skills = () => {
                         {list.map((item) => (
                             <>
 
-                                <div key={item.id} className="bg-sixth m-3 p-4 w-16 sm:w-24 rounded-md flex flex-col items-center gap-2 shadow-xl hover:opacity-60 duration-300">
+                                <div key={item.id} className="bg-sixth m-3 p-4 w-16 sm:w-24 rounded-md flex flex-col items-center justify-start gap-2 shadow-xl hover:opacity-60 duration-300">
                                     <img src={item.URL} alt={item.title} className={`${item.property}`} />
                                     <p className="text-[0.5rem] sm:text-sm text-center">{item.title}</p>
                                 </div>
