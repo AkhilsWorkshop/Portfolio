@@ -17,7 +17,7 @@ const Contact = () => {
                     data-aos="fade-up"
                     data-aos-delay="100">
                     <p className="text-lg sm:text-xl text-justify">Feel free to reach me out!</p>
-                    <form action="https://getform.io/f/b2fd7330-de80-457a-8155-3b8052ec0c9b" className="flex flex-col w-full md:w-1/2" method="POST">
+                    <form action={process.env.REACT_APP_FORM} className="flex flex-col w-full md:w-1/2" method="POST">
                         <input type="text" name="name" placeholder="Your name" className="p-2 bg-transparent
                          border-2 border-sixth bg-fifth rounded-md text-secondary" required />
                         <input type="text" name="email" placeholder="Your Email" className="p-2 my-4 bg-transparent
