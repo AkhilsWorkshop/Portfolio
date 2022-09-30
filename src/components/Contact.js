@@ -9,14 +9,14 @@ const Contact = () => {
                 <div className="sm:mt-20 flex items-center"
                     data-aos="fade-right"
                     data-aos-delay="100">
-                    <p className="text-2xl md:text-3xl font-bold"><span className="text-primary">04. </span>Contact me</p>
+                    <p className="text-2xl md:text-3xl font-bold"><span className="text-primary">04. </span>Questions?</p>
                     <div className="hidden sm:flex bg-third/30 h-[0.01rem] w-1/3 ml-5"></div>
                 </div>
 
                 <div className="flex flex-col justify-center items-center gap-5"
                     data-aos="fade-up"
                     data-aos-delay="100">
-                    <p className="text-lg sm:text-xl text-justify">Have any questions for me? Use the form below!</p>
+                    <p className="text-lg sm:text-xl text-justify">Feel free to reach me out!</p>
                     <form action="https://getform.io/f/b2fd7330-de80-457a-8155-3b8052ec0c9b" className="flex flex-col w-full md:w-1/2" method="POST">
                         <input type="text" name="name" placeholder="Your name" className="p-2 bg-transparent
                          border-2 border-sixth bg-fifth rounded-md text-secondary" required />
@@ -24,7 +24,7 @@ const Contact = () => {
                          border-2 border-sixth bg-fifth rounded-md text-secondary" required />
 
                         <textarea name="message" placeholder="Your Message" rows="3" className="p-2 bg-transparent
-                         border-2 border-sixth bg-fifth rounded-md text-secondary"></textarea>
+                         border-2 border-sixth bg-fifth rounded-md text-secondary" required></textarea>
 
                         <button className=" text-primary bg-transparent border-2 border-primary uppercase  shadow-xl gap-1 duration-300 hover:bg-primary/20 py-3 px-5 rounded-md mx-auto my-8">Send message</button>
                     </form>

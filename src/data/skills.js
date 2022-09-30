@@ -35,16 +35,6 @@ export const list = [
         title: "PyScript",
     },
     {
-        id: 7,
-        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-        title: "tailwindcss",
-    },
-    {
-        id: 8,
-        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg",
-        title: "Bootstrap",
-    },
-    {
         id: 9,
         URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
         title: "HTML5",
@@ -55,9 +45,45 @@ export const list = [
         title: "css3",
     },
     {
+        id: 20,
+        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+        title: "Sass",
+    },
+    {
+        id: 7,
+        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        title: "tailwindcss",
+    },
+    {
+        id: 8,
+        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg",
+        title: "Bootstrap",
+    },
+    {
+        id: 16,
+        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+        title: "Firebase",
+    },
+    {
+        id: 17,
+        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+        title: "MySQL",
+    },
+    {
         id: 11,
         URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
         title: "PostgreSQL",
+    },
+    {
+        id: 15,
+        URL: aws,
+        title: "AWS",
+        property: "brightness-150 h-full",
+    },
+    {
+        id: 18,
+        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg",
+        title: "heroku",
     },
     {
         id: 12,
@@ -71,39 +97,14 @@ export const list = [
         property: "invert",
     },
     {
-        id: 14,
-        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
-        title: "VS Code",
-    },
-    {
-        id: 15,
-        URL: aws,
-        title: "AWS",
-        property: "brightness-150 h-full",
-    },
-    {
-        id: 16,
-        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-        title: "Firebase",
-    },
-    {
-        id: 17,
-        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-        title: "MySQL",
-    },
-    {
-        id: 18,
-        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg",
-        title: "heroku",
-    },
-    {
         id: 19,
         URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
         title: "npm",
     },
     {
-        id: 20,
-        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-        title: "Sass",
-    }
+        id: 14,
+        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+        title: "VS Code",
+    },
+
 ]

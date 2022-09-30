@@ -1,5 +1,6 @@
 import { FiExternalLink } from "react-icons/fi"
 import { Link } from 'react-scroll';
+import { BsChevronDown } from "react-icons/bs"
 
 
 const Home = () => {
@@ -39,6 +40,14 @@ const Home = () => {
                         <a href="https://moviehome.akhilkumar.ga/" target="_blank" rel="noreferrer" className="text-[#ABDF12] font-slogan border-2 border-[#ABDF12] my-2 px-6 py-3 rounded-md flex items-center gap-1 cursor-pointer duration-500 hover:bg-[#ABDF12]/20">Check out my latest Project<FiExternalLink size={18} />
                         </a>
 
+                    </div>
+                    <div className="flex justify-center"
+                        data-aos="fade-up"
+                        data-aos-once="true"
+                        data-aos-delay="1000">
+                        <Link to="About" smooth>
+                            <BsChevronDown className="text-primary border-2 p-2 mt-10 animate-pulse hover:animate-none hover:bg-primary/20 duration-200 rounded-full cursor-pointer" size={50} />
+                        </Link>
                     </div>
 
                 </div>
