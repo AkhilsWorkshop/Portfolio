@@ -1,6 +1,7 @@
 import { FiExternalLink } from "react-icons/fi"
 import { Link } from 'react-scroll';
-import { BsChevronDown, BsPersonLinesFill } from "react-icons/bs"
+import { BsChevronDown, BsDownload } from "react-icons/bs"
+import { AiOutlineDownload } from "react-icons/ai"
 
 
 const Home = () => {
@@ -40,10 +41,9 @@ const Home = () => {
                         <a href="https://moviehome.akhilkumar.ga/" target="_blank" rel="noreferrer" className="text-[#ABDF12] font-slogan border-2 border-[#ABDF12] my-2 px-6 py-3 rounded-md flex items-center gap-1 cursor-pointer duration-500 hover:bg-[#ABDF12]/20">Check out my latest Project<FiExternalLink size={18} />
                         </a>
 
-                        <a href="/Resume-AkhilKumar.pdf" target="_blank" rel="noreferrer">
-                            <BsPersonLinesFill size={24} className="duration-300 hover:text-primary hover:scale-105" />
+                        <a href="/Resume-AkhilKumar.pdf" target="_blank" rel="noreferrer" className="text-[#ABDF12] font-slogan border-2 border-[#ABDF12] my-2 px-6 py-3 rounded-md hidden md:flex items-center gap-1 cursor-pointer duration-500 hover:bg-[#ABDF12]/20">
+                            Resume <BsDownload size={18} />
                         </a>
-
 
                     </div>
                     <div className="flex justify-center"

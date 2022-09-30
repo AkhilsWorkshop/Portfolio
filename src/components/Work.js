@@ -27,7 +27,7 @@ const Work = () => {
 
         <div name="Work" className="min-h-screen w-full bg-fifth text-secondary">
 
-            <div className="max-w-screen-lg mx-auto flex flex-col h-full px-10 pt-36 sm:px-4">
+            <div className="max-w-screen-lg mx-auto flex flex-col h-full px-10 py-20 sm:px-4">
 
                 <div className="flex flex-col justify-center w-full">
 
@@ -39,7 +39,7 @@ const Work = () => {
                         <div className="hidden sm:flex bg-third/30 h-[0.01rem] w-1/3 ml-5"></div>
                     </div>
 
-                    <div className="flex flex-col gap-20 items-center justify-center">
+                    <div className="flex flex-col gap-5 items-center justify-center">
 
 
                         {list.map(({ id, name, desc, first, second, github, url, tags }) => (
