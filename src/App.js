@@ -9,14 +9,15 @@ import { useState } from "react";
 import { useEffect } from "react";
 import Loading from "./components/Lazy/Loading";
 import Work from "./components/Work";
+import Skills from "./components/Skills";
 
 function App() {
 
   const [load, setLoad] = useState(false)
 
   useEffect(() => {
-    setLoad(true)
-    setTimeout(() => { setLoad(false) }, 2000)
+    // setLoad(true)
+    // setTimeout(() => { setLoad(false) }, 2000)
   }, [])
 
   return (
@@ -31,8 +32,9 @@ function App() {
           <Home />
           <About />
           <Work />
+          <Skills />
           <Education />
-          {/* <Contact /> */}
+          <Contact />
           <Footer />
         </>
       }
