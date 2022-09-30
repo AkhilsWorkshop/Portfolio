@@ -60,11 +60,17 @@ const Navbar = () => {
                             </>
                         ))}
                         <div className="flex gap-1">
-                            <a href="https://github.com/AkhilsWorkshop" target="_blank" rel="noreferrer">
+                            <a href="https://github.com/AkhilsWorkshop" target="_blank" rel="noreferrer"
+                                data-aos="fade-down"
+                                data-aos-once="true"
+                                data-aos-delay="500">
                                 <AiFillGithub size={25} className="duration-300 hover:text-primary hover:scale-110" />
                             </a>
 
-                            <a href="https://www.linkedin.com/in/akhilkumarh/" target="_blank" rel="noreferrer">
+                            <a href="https://www.linkedin.com/in/akhilkumarh/" target="_blank" rel="noreferrer"
+                                data-aos="fade-down"
+                                data-aos-once="true"
+                                data-aos-delay="600">
                                 <AiFillLinkedin size={25} className="duration-300 hover:text-primary hover:scale-110" />
                             </a>
                         </div>
