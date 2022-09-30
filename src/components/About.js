@@ -11,7 +11,7 @@ const About = () => {
 
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-10 sm:px-4 md:flex-row">
 
-                <div className="flex flex-col justify-center h-full pt-28 sm:pt-0">
+                <div className="flex flex-col justify-center h-full sm:pt-0">
 
                     <div className="flex items-center"
                         data-aos="fade-right"

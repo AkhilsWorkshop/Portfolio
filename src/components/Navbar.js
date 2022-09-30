@@ -63,7 +63,7 @@ const Navbar = () => {
                 </div>
 
                 {menu && (
-                    <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-fifth via-black to-sixth">
+                    <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black via-sixth to-black">
                         {items.map(({ id, item }) => (
                             <li key={id} className="px-4 cursor-pointer text-secondary py-6 text-4xl">
                                 <Link onClick={() => setMenu(!menu)} to={item} smooth duration={500}>

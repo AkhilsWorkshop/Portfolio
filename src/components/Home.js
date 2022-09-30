@@ -8,9 +8,9 @@ const Home = () => {
     return (
         <div name="Home" className="h-screen w-full bg-gradient-to-b from-black via-black to-fifth">
 
-            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-10 sm:px-4">
+            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-10 sm:py-0 sm:px-4">
 
-                <div className="flex flex-col justify-center gap-4 h-full">
+                <div className="flex flex-col justify-center gap-2 sm:gap-4 h-full">
 
                     <p className="text-primary py-4 font-slogan font-normal"
                         data-aos="fade-up"
@@ -46,7 +46,7 @@ const Home = () => {
                         data-aos-once="true"
                         data-aos-delay="1000">
                         <Link to="About" smooth>
-                            <BsChevronDown className="text-primary border-2 p-2 mt-10 animate-pulse hover:animate-none hover:bg-primary/20 duration-200 rounded-full cursor-pointer" size={50} />
+                            <BsChevronDown className="text-primary border-2 p-2 mt-5 sm:mt-10 hover:bg-primary/20 duration-200 rounded-full cursor-pointer" size={50} />
                         </Link>
                     </div>
 
