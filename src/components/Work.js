@@ -1,28 +1,8 @@
-import { useState } from "react"
 import { FiGithub, FiExternalLink } from "react-icons/fi"
 import { FaTools } from "react-icons/fa"
 import { list } from "../data/projects"
 
-
 const Work = () => {
-
-    const [current, setCurrent] = useState(list)
-
-    const first = current[0]
-
-    const nextClick = (i) => {
-        const total = list[i + 0];
-
-        setCurrent(total)
-        console.log(current)
-    }
-
-    const prevClick = (i) => {
-        const total = list[i - 1];
-
-        setCurrent(total)
-        console.log(current)
-    }
 
     return (
 
@@ -52,7 +32,7 @@ const Work = () => {
                                         data-aos-once="true"
                                         data-aos-duration="1500" />
 
-                                    <img key={id} className="aspect-auto w-full sm:w-[80%] drop-shadow-xl" src={first} alt={id}
+                                    <img key={id + 1} className="aspect-auto w-full sm:w-[80%] drop-shadow-xl" src={first} alt={id + 1}
                                         data-aos="fade-right"
                                         data-aos-once="true"
                                         data-aos-duration="1500" />
