@@ -3,6 +3,7 @@ import { FiGithub, FiExternalLink } from "react-icons/fi"
 import { FaTools } from "react-icons/fa"
 import { list } from "../data/projects"
 
+
 const Work = () => {
 
     const [current, setCurrent] = useState(list)

@@ -10,14 +10,16 @@ const Skills = () => {
 
                 <div className="flex items-center pl-8 sm:pl-0"
                     data-aos="fade-right"
-                    data-aos-delay="100">
+                    data-aos-delay="100"
+                    data-aos-once="true">
                     <p className="text-2xl md:text-3xl font-bold"><span className="text-primary">03. </span>I've worked on</p>
                     <div className="hidden sm:flex bg-third/30 h-[0.01rem] w-1/3 ml-5"></div>
                 </div>
 
                 <div className="flex flex-wrap justify-center mt-10"
                     data-aos="fade-up"
-                    data-aos-delay="400">
+                    data-aos-delay="400"
+                    data-aos-once="true">
                     {list.map((item) => (
                         <>
 

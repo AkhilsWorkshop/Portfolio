@@ -1,7 +1,6 @@
 import { FiExternalLink } from "react-icons/fi"
 import { Link } from 'react-scroll';
 import { BsChevronDown, BsDownload } from "react-icons/bs"
-import { AiOutlineDownload } from "react-icons/ai"
 
 
 const Home = () => {
@@ -51,7 +50,7 @@ const Home = () => {
                         data-aos-once="true"
                         data-aos-delay="1000">
                         <Link to="About" smooth>
-                            <BsChevronDown className="text-primary border-2 p-2 mt-5 sm:mt-10 hover:bg-primary/20 duration-200 rounded-full cursor-pointer" size={50} />
+                            <BsChevronDown className="text-primary p-2 mt-5 sm:mt-10 rounded-full hover:bg-primary/20 duration-200 cursor-pointer" size={50} />
                         </Link>
                     </div>
 

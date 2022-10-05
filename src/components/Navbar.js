@@ -59,7 +59,7 @@ const Navbar = () => {
                                 </li>
                             </>
                         ))}
-                        <div className="flex gap-1">
+                        <div className="flex gap-5">
                             <a href="https://github.com/AkhilsWorkshop" target="_blank" rel="noreferrer"
                                 data-aos="fade-down"
                                 data-aos-once="true"
@@ -81,7 +81,7 @@ const Navbar = () => {
                     </div>
 
                     {menu && (
-                        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black via-sixth to-black">
+                        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black via-sixth to-black duration-1000">
                             {items.map(({ id, item }) => (
                                 <li key={id} className="px-4 cursor-pointer text-secondary py-6 text-4xl">
                                     <Link onClick={() => setMenu(!menu)} to={item} smooth duration={500}>
