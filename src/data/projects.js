@@ -13,8 +13,8 @@ export const list = [
         first: firstImg,
         second: firstImgMob,
         desc: "A web app for getting information about Movies, TV shows and much more. Feeling bored? You can discover trending TV Shows and movies. Get cast, crew, popularity, release date, trailer and much more for Movies & TV shows. Get details about cast/crew members and discover other movies they have worked on.",
-        tags: ["React", "Tailwind CSS", "TMDB API", "Github"],
-        url: "https://moviehome.akhilkumar.ga/",
+        tags: ["React", "Tailwind CSS", "Headless UI", "Github"],
+        url: "https://movie-home.ml/",
         github: "https://github.com/AkhilsWorkshop/Movie-Home",
     },
     {

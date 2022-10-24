@@ -37,11 +37,11 @@ const Home = () => {
                         data-aos-once="true"
                         data-aos-delay="500">
 
-                        <a href="https://moviehome.akhilkumar.ga/" target="_blank" rel="noreferrer" className="text-[#ABDF12] font-slogan border-2 border-[#ABDF12] my-2 px-6 py-3 rounded-md flex items-center gap-1 cursor-pointer duration-500 hover:bg-[#ABDF12]/20">Check out my latest Project<FiExternalLink size={18} />
-                        </a>
+                        {/* <a href="https://movie-home.ml/" target="_blank" rel="noreferrer" className="text-[#ABDF12] font-slogan border-2 border-[#ABDF12] my-2 px-6 py-3 rounded-md flex items-center gap-1 cursor-pointer duration-500 hover:bg-[#ABDF12]/20">Check out my latest Project<FiExternalLink size={18} />
+                        </a> */}
 
                         <a href="/Resume-AkhilKumar.pdf" target="_blank" rel="noreferrer" className="text-[#ABDF12] font-slogan border-2 border-[#ABDF12] my-2 px-6 py-3 rounded-md hidden md:flex items-center gap-1 cursor-pointer duration-500 hover:bg-[#ABDF12]/20">
-                            Resume <BsDownload size={18} />
+                            Resume <BsDownload size={15} />
                         </a>
 
                     </div>
