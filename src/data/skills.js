@@ -24,6 +24,11 @@ export const list = [
         property: "brightness-200",
     },
     {
+        id: 21,
+        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+        title: "Java",
+    },
+    {
         id: 5,
         URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
         title: "Flask",

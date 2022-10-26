@@ -37,8 +37,8 @@ const Home = () => {
                         data-aos-once="true"
                         data-aos-delay="500">
 
-                        {/* <a href="https://movie-home.ml/" target="_blank" rel="noreferrer" className="text-[#ABDF12] font-slogan border-2 border-[#ABDF12] my-2 px-6 py-3 rounded-md flex items-center gap-1 cursor-pointer duration-500 hover:bg-[#ABDF12]/20">Check out my latest Project<FiExternalLink size={18} />
-                        </a> */}
+                        <a href="https://movie-home.ml/" target="_blank" rel="noreferrer" className="text-[#ABDF12] font-slogan border-2 border-[#ABDF12] my-2 px-6 py-3 rounded-md flex items-center gap-1 cursor-pointer duration-500 hover:bg-[#ABDF12]/20">Check out my latest Project<FiExternalLink size={18} />
+                        </a>
 
                         <a href="/Resume-AkhilKumar.pdf" target="_blank" rel="noreferrer" className="text-[#ABDF12] font-slogan border-2 border-[#ABDF12] my-2 px-6 py-3 rounded-md hidden md:flex items-center gap-1 cursor-pointer duration-500 hover:bg-[#ABDF12]/20">
                             Resume <BsDownload size={15} />
@@ -50,7 +50,7 @@ const Home = () => {
                         data-aos-once="true"
                         data-aos-delay="1000">
                         <Link to="About" smooth>
-                            <BsChevronDown className="text-primary p-2 mt-5 sm:mt-10 rounded-full hover:bg-primary/20 duration-200 cursor-pointer" size={50} />
+                            <BsChevronDown className="text-primary animate-bounce hover:animate-none p-2 mt-5 sm:mt-10 rounded-full hover:bg-primary/20 duration-200 cursor-pointer" size={50} />
                         </Link>
                     </div>
 
