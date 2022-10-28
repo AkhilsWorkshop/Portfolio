@@ -2,6 +2,7 @@ import profilePic from "../assets/myImage.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
 const About = () => {
 
     AOS.init();

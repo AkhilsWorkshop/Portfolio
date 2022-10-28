@@ -9,6 +9,7 @@ import Loading from "./components/Lazy/Loading";
 import Work from "./components/Work";
 import Skills from "./components/Skills";
 import DotNav from "./DotNav";
+import ParticleBackground from "./components/ParticleBackground";
 
 function App() {
 
@@ -28,10 +29,12 @@ function App() {
         <>
           <Navbar />
           <DotNav />
+          <ParticleBackground />
           <Home />
           <About />
           <Work />
           <Skills />
+
           <Contact />
           <Footer />
         </>

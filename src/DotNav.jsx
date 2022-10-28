@@ -13,7 +13,7 @@ const DotNav = () => {
             {items.map(({ item, offset }) => (
                 <>
 
-                    <Link activeClass="text-primary scale-150" spy={true} offset={offset} key={uuidv4()} to={item} smooth duration={500} className="cursor-pointer text-third duration-300 hover:text-primary hover:scale-150">
+                    <Link activeClass="text-[#ABDF12] scale-150" spy={true} offset={offset} key={uuidv4()} to={item} smooth duration={500} className="cursor-pointer text-third duration-300 hover:text-primary hover:scale-150">
                         <BsFillCircleFill key={uuidv4()} size={10} />
                     </Link>
 
