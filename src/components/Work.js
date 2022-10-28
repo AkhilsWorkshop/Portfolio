@@ -1,6 +1,7 @@
 import { FiGithub, FiExternalLink } from "react-icons/fi"
 import { FaTools } from "react-icons/fa"
 import { list } from "../data/projects"
+import { v4 as uuidv4 } from 'uuid';
 
 const Work = () => {
 
@@ -27,12 +28,12 @@ const Work = () => {
                             <>
                                 <div className="flex flex-col sm:relative text-third pt-5 ">
 
-                                    <img key={id} className="absolute hidden sm:flex aspect-auto w-[30%] right-0 mt-[10%] drop-shadow-xl z-10" src={second} alt={id}
+                                    <img key={uuidv4()} className="absolute hidden sm:flex aspect-auto w-[30%] right-0 mt-[10%] drop-shadow-xl z-10" src={second} alt={id}
                                         data-aos="fade-left"
                                         data-aos-once="true"
                                         data-aos-duration="1500" />
 
-                                    <img key={id + 1} className="aspect-auto w-full sm:w-[80%] drop-shadow-xl" src={first} alt={id + 1}
+                                    <img key={uuidv4()} className="aspect-auto w-full sm:w-[80%] drop-shadow-xl" src={first} alt={id + 1}
                                         data-aos="fade-right"
                                         data-aos-once="true"
                                         data-aos-duration="1500" />

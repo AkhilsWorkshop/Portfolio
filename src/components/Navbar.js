@@ -3,31 +3,10 @@ import { CgMenu, CgClose } from "react-icons/cg";
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { items } from '../data/Pages';
+import { v4 as uuidv4 } from 'uuid';
 
 const Navbar = () => {
-
-    const items = [
-        {
-            id: 1,
-            item: "About",
-            duration: 100
-        },
-        {
-            id: 2,
-            item: "Work",
-            duration: 200
-        },
-        {
-            id: 3,
-            item: "Skills",
-            duration: 300
-        },
-        {
-            id: 4,
-            item: "Contact",
-            duration: 400
-        }
-    ]
 
     const [menu, setMenu] = useState(false);
 
@@ -45,13 +24,10 @@ const Navbar = () => {
 
 
                     <div className="hidden md:flex gap-5">
-                        {items.map(({ id, item, duration }) => (
+                        {items.map(({ item, duration }) => (
                             <>
 
-                                <Link key={id} to={item} smooth duration={500} className="cursor-pointer text-secondary duration-300 hover:text-primary"
-                                    data-aos="fade-down"
-                                    data-aos-once="true"
-                                    data-aos-delay={duration}>
+                                <Link activeClass="text-primary" spy={true} key={uuidv4()} to={item} smooth duration={500} className="cursor-pointer text-secondary duration-300 hover:text-primary">
                                     {item}
                                 </Link>
 
@@ -74,15 +50,18 @@ const Navbar = () => {
                         </div>
                     </div>
 
+
+
+                    {/* Mobile Version */}
                     <div onClick={() => setMenu(!menu)} className="cursor-pointer z-20 text-secondary md:hidden">
                         {menu ? <CgClose size={35} /> : <CgMenu size={35} />}
                     </div>
 
                     {menu && (
                         <div className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black via-sixth to-black duration-1000">
-                            {items.map(({ id, item }) => (
+                            {items.map(({ item }) => (
 
-                                <Link onClick={() => setMenu(!menu)} to={item} smooth duration={500} key={id} className="px-4 cursor-pointer text-secondary py-6 text-4xl">
+                                <Link onClick={() => setMenu(!menu)} to={item} smooth duration={500} key={uuidv4()} className="px-4 cursor-pointer text-secondary py-6 text-4xl">
                                     {item}
                                 </Link>
 

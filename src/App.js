@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import Loading from "./components/Lazy/Loading";
 import Work from "./components/Work";
 import Skills from "./components/Skills";
+import DotNav from "./DotNav";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
 
         <>
           <Navbar />
+          <DotNav />
           <Home />
           <About />
           <Work />
