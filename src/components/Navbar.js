@@ -27,7 +27,7 @@ const Navbar = () => {
                         {items.map(({ item, duration }) => (
                             <>
 
-                                <Link activeClass="text-[#ABDF12]" spy={true} key={uuidv4()} to={item} smooth duration={500} className="cursor-pointer text-secondary duration-300 hover:text-primary">
+                                <Link activeClass="text-primary" spy={true} key={uuidv4()} to={item} smooth duration={500} className="cursor-pointer text-secondary duration-300 hover:text-primary">
                                     {item}
                                 </Link>
 

@@ -6,7 +6,7 @@ import { BsChevronDown, BsDownload } from "react-icons/bs"
 const Home = () => {
 
     return (
-        <div name="Home" className="h-screen w-full bg-transparent backdrop-blur-[1px]">
+        <div name="Home" className="h-screen w-full bg-transparent backdrop-blur-[3px]">
 
             <div className="max-w-screen-lg mx-auto flex items-center justify-center h-full px-10 sm:py-0 sm:px-4">
 

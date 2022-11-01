@@ -8,7 +8,7 @@ const About = () => {
     AOS.init();
 
     return (
-        <div name="About" className="h-screen w-full bg-fifth text-secondary">
+        <div name="About" className="h-screen w-full bg-gradient-to-b from-black via-fifth to-black text-secondary">
 
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-10 sm:px-4 md:flex-row">
 

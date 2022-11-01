@@ -6,10 +6,11 @@ import Footer from "./components/Footer";
 import { useState } from "react";
 import { useEffect } from "react";
 import Loading from "./components/Lazy/Loading";
-import Work from "./components/Work";
 import Skills from "./components/Skills";
 import DotNav from "./DotNav";
 import ParticleBackground from "./components/ParticleBackground";
+import Project from "./components/Project";
+import Work from "./components/Work";
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
           <Home />
           <About />
           <Work />
+          <Project />
           <Skills />
 
           <Contact />
