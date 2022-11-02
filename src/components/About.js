@@ -1,11 +1,7 @@
 import profilePic from "../assets/myImage.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import auLogo from "../assets/Timeline/auLogo.png"
-import utaLogo from "../assets/Timeline/utaLogo.png"
-import codingLogo from "../assets/Timeline/codingLogo.png"
-import { IoMdSchool } from "react-icons/io"
-import { MdWork } from "react-icons/md"
+import Progress from "./Progress";
 
 
 const About = () => {
@@ -43,69 +39,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <ol class="mt-12 sm:grid grid-flow-col auto-cols-fr gap-x-1">
-
-                        <li class="relative mb-6 sm:mb-0">
-                            <div class="flex items-center">
-                                <div class="flex ml-2 z-10 justify-center items-center w-6 h-6 rounded-full ring-8 sm:ring-8 ring-primary bg-primary">
-                                    <IoMdSchool size={25} className=" text-sixth" />
-                                </div>
-                                <div class="hidden sm:flex w-full bg-third h-0.5"></div>
-                            </div>
-                            <div class="mt-8">
-                                <div className="flex items-start gap-2">
-                                    <img src={auLogo} alt="AU logo" className="h-10 invert-[100%]" />
-                                    <div className="flex flex-col">
-                                        <p className="mb-1 text-lg font-semibold leading-none text-[#ffffff]"> Anna University</p>
-                                        <p className="block text-sm font-normal tracking-wider text-[#c9c6c3]">Sep 2017 - July 2021</p>
-                                        <p className="block my-2 text-sm text-secondary font-semibold">Bachelor of Engineering - Computer Science Engineering</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </li>
-
-                        <li class="relative mb-6 sm:mb-0">
-                            <div class="flex items-center">
-                                <div class="flex ml-2 z-10 justify-center items-center w-6 h-6 rounded-full ring-8 sm:ring-8 ring-primary bg-primary">
-                                    <MdWork size={20} className=" text-sixth" />
-                                </div>
-                                <div class="hidden sm:flex w-full bg-third h-0.5"></div>
-                            </div>
-                            <div class="mt-8">
-                                <div className="flex items-start gap-2">
-                                    <img src={codingLogo} alt="AU logo" className="h-10" />
-                                    <div className="flex flex-col">
-                                        <p className="mb-1 text-lg font-semibold leading-none text-[#ffffff]"> Freelance Web Developer</p>
-                                        <p className="text-sm font-normal tracking-wider text-[#c9c6c3]">Jan 2018 - Aug 2021</p>
-                                        <p className="my-2 text-sm text-secondary font-semibold"></p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </li>
-
-                        <li class="relative mb-6 sm:mb-0">
-                            <div class="flex items-center">
-                                <div class="flex ml-2 z-10 justify-center items-center w-6 h-6 rounded-full ring-8 sm:ring-8 ring-primary bg-primary">
-                                    <IoMdSchool size={25} className="text-sixth" />
-                                </div>
-                                <div class="hidden sm:flex w-full bg-third h-0.5"></div>
-                            </div>
-                            <div class="mt-8">
-                                <div className="flex items-start gap-2">
-                                    <img src={utaLogo} alt="AU logo" className="h-10" />
-                                    <div className="flex flex-col">
-                                        <p className="mb-1 text-lg font-semibold leading-none text-[#ffffff]"> University of Texas at Arlington</p>
-                                        <p className="text-sm font-normal tracking-wider text-[#c9c6c3]">Aug 2021 - May 2023</p>
-                                        <p className="my-2 text-sm text-secondary font-semibold">Master of Science - Computer Science</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </li>
-                    </ol>
-
+                    <Progress />
 
 
                 </div>
