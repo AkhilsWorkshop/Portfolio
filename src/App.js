@@ -1,12 +1,11 @@
-import Hero from "./Pages/Home/Hero";
-import About from "./Pages/Home/About";
-import Contact from "./Pages/Home/Contact";
+import Hero from "./pages/Home/Hero";
+import About from "./pages/Home/About";
+import Contact from "./pages/Home/Contact";
 import { useState } from "react";
 import { useEffect } from "react";
-import Loading from "./components/Lazy/Loading";
-import Skills from "./Pages/Home/Skills";
-
-import Project from "./Pages/Home/Project";
+import Loading from "./layouts/Loading";
+import Skills from "./pages/Home/Skills";
+import Project from "./pages/Home/Project";
 import Footer from "./layouts/Footer";
 import DotNav from "./layouts/DotNav";
 import Navbar from "./layouts/Navbar";

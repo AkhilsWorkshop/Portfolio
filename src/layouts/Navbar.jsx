@@ -1,4 +1,4 @@
-import logo from '../assets/logo.svg';
+import logo from '../assets/Images/layouts/Navbar/logo.svg';
 import { CgMenu, CgClose } from "react-icons/cg";
 import { useState } from 'react';
 import { Link } from 'react-scroll';

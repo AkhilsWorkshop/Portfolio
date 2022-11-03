@@ -1,8 +1,8 @@
 
-import firstImg from "../assets/Images/Movie/1.png"
-import firstImgMob from "../assets/Images/Movie/1-mobile.png"
-import secondImg from "../assets/Images/Movie/2.png"
-import secondImgMob from "../assets/Images/Movie/2-mobile.png"
+import firstImg from "../assets/Images/Home/Movie/1.png"
+import firstImgMob from "../assets/Images/Home/Movie/1-mobile.png"
+import secondImg from "../assets/Images/Home/Movie/2.png"
+import secondImgMob from "../assets/Images/Home/Movie/2-mobile.png"
 
 
 

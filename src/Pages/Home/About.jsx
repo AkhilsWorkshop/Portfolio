@@ -1,7 +1,7 @@
-import profilePic from "../assets/myImage.png"
+import profilePic from "../../assets/Images/Home/About/myImage.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Progress from "../../components/Progress";
+import Progress from "../../components/Home/About/Progress";
 
 
 const About = () => {

@@ -1,6 +1,6 @@
 import { FiGithub, FiExternalLink } from "react-icons/fi"
 import { FaTools } from "react-icons/fa"
-import { list } from "../../data/projects"
+import { list } from "../../data/projectData"
 import { v4 as uuidv4 } from 'uuid';
 
 const Project = () => {

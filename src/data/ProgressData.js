@@ -1,6 +1,6 @@
-import auLogo from "../assets/Timeline/auLogo.png"
-import utaLogo from "../assets/Timeline/utaLogo.png"
-import codingLogo from "../assets/Timeline/codingLogo.png"
+import auLogo from "../assets/Images/Home/About/Timeline/auLogo.png"
+import utaLogo from "../assets/Images/Home/About/Timeline/utaLogo.png"
+import codingLogo from "../assets/Images/Home/About/Timeline/codingLogo.png"
 
 export const progressData = [
     {

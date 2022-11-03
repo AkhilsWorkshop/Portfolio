@@ -1,5 +1,5 @@
-import { progressData } from "../data/ProgressData"
-import target from "../assets/Timeline/target.png"
+import { progressData } from "../../../data/progressData"
+import target from "../../../assets/Images/Home/About/Timeline/target.png"
 
 const Progress = () => {
     return (
