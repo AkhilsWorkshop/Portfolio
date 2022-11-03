@@ -2,6 +2,7 @@ import profilePic from "../../assets/Images/Home/About/myImage.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Progress from "../../components/Home/About/Progress";
+import TitleBar from "../../components/Common/TitleBar";
 
 
 const About = () => {
@@ -18,13 +19,7 @@ const About = () => {
                     <div className="flex flex-col-reverse sm:flex-row justify-center items-center text-third gap-5">
                         <div className="flex flex-col gap-10">
 
-                            <div className="flex items-center"
-                                data-aos="fade-right"
-                                data-aos-once="true"
-                                data-aos-delay="100">
-                                <p className="text-2xl md:text-3xl font-bold text-secondary"><span className="text-primary">01. </span>About me</p>
-                                <div className="flex bg-gradient-to-r from-third h-[0.1rem] grow ml-5"></div>
-                            </div>
+                            <TitleBar name="About me" sNo="01." />
 
                             <p className="sm:text-xl text-third font-slogan"
                                 data-aos="fade-up"

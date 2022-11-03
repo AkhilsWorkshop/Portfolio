@@ -1,3 +1,4 @@
+import TitleBar from "../../components/Common/TitleBar"
 
 
 const Contact = () => {
@@ -6,13 +7,7 @@ const Contact = () => {
 
             <div className="max-w-screen-lg px-10 py-20 sm:px-4 mx-auto flex flex-col justify-center w-full h-full gap-7">
 
-                <div className="sm:mt-20 flex items-center"
-                    data-aos="fade-right"
-                    data-aos-delay="100"
-                    data-aos-once="true">
-                    <p className="text-xl md:text-3xl font-bold"><span className="text-primary">04. </span>Questions?</p>
-                    <div className="flex bg-gradient-to-r from-third h-[0.1rem] grow ml-5"></div>
-                </div>
+                <TitleBar name="Questions?" sNo="04." />
 
                 <div className="flex flex-col justify-center items-center gap-5"
                     data-aos="fade-up"

@@ -2,6 +2,7 @@ import { FiGithub, FiExternalLink } from "react-icons/fi"
 import { FaTools } from "react-icons/fa"
 import { list } from "../../data/projectData"
 import { v4 as uuidv4 } from 'uuid';
+import TitleBar from "../../components/Common/TitleBar";
 
 const Project = () => {
 
@@ -13,13 +14,7 @@ const Project = () => {
 
                     <div className="flex flex-col justify-center w-full">
 
-                        <div className="flex items-center"
-                            data-aos="fade-right"
-                            data-aos-once="true"
-                            data-aos-delay="100">
-                            <p className="text-xl md:text-3xl font-bold"><span className="text-primary">02. </span>Few things I've made</p>
-                            <div className="flex bg-gradient-to-r from-third h-[0.1rem] grow ml-5"></div>
-                        </div>
+                        <TitleBar name="Few things I've made" sNo="02." />
 
                         <div className="flex flex-col gap-5 items-center justify-center">
 
