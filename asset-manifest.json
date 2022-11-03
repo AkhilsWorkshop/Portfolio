@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1735d3a0.css",
-    "main.js": "/static/js/main.0bf387ac.js",
+    "main.css": "/static/css/main.1b1d2dd2.css",
+    "main.js": "/static/js/main.820e3a5e.js",
     "static/media/1.png": "/static/media/1.d62a1f4549686a854df9.png",
     "static/media/2.png": "/static/media/2.cbc306e21f192d68c85f.png",
     "static/media/1-mobile.png": "/static/media/1-mobile.758d9189fbc84c8a0c0e.png",
@@ -10,14 +10,15 @@
     "static/media/loading.gif": "/static/media/loading.2b2ddd4f572aa1daf991.gif",
     "static/media/auLogo.png": "/static/media/auLogo.6268a1ee3fed5ee5c7a6.png",
     "static/media/utaLogo.png": "/static/media/utaLogo.9c7578048f84ccaf8169.png",
+    "static/media/target.png": "/static/media/target.7751bc0e2426b767bddd.png",
     "static/media/codingLogo.png": "/static/media/codingLogo.ad02d63870968fd4d1e7.png",
     "static/media/logo.svg": "/static/media/logo.b8a28a25445f2e030462ec44d1da157b.svg",
     "index.html": "/index.html",
-    "main.1735d3a0.css.map": "/static/css/main.1735d3a0.css.map",
-    "main.0bf387ac.js.map": "/static/js/main.0bf387ac.js.map"
+    "main.1b1d2dd2.css.map": "/static/css/main.1b1d2dd2.css.map",
+    "main.820e3a5e.js.map": "/static/js/main.820e3a5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1735d3a0.css",
-    "static/js/main.0bf387ac.js"
+    "static/css/main.1b1d2dd2.css",
+    "static/js/main.820e3a5e.js"
   ]
 }
