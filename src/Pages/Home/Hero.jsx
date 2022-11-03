@@ -2,11 +2,10 @@ import { FiExternalLink } from "react-icons/fi"
 import { Link } from 'react-scroll';
 import { BsChevronDown, BsDownload } from "react-icons/bs"
 
-
-const Home = () => {
+const Hero = () => {
 
     return (
-        <div name="Home" className="h-screen w-full bg-transparent backdrop-blur-[3px]">
+        <div name="Home" className="h-screen w-full bg-gradient-to-tr from-bgDark via-black to-bgDark">
 
             <div className="max-w-screen-lg mx-auto flex items-center justify-center h-full px-10 sm:py-0 sm:px-4">
 
@@ -19,7 +18,7 @@ const Home = () => {
                     <h2 className="text-4xl sm:text-7xl font-bold text-[#F3F0EB]"
                         data-aos="fade-up"
                         data-aos-once="true"
-                        data-aos-delay="200">Akhil Harikumar.</h2>
+                        data-aos-delay="200">Akhil Harikumar</h2>
                     <h2 className="text-third text-2xl sm:text-6xl font-bold"
                         data-aos="fade-up"
                         data-aos-once="true"
@@ -50,12 +49,11 @@ const Home = () => {
                         data-aos-once="true"
                         data-aos-delay="1000">
                         <Link to="About" smooth>
-                            <BsChevronDown className="text-primary animate-bounce hover:animate-none p-2 mt-5 sm:mt-10 rounded-full hover:bg-primary/20 duration-200 cursor-pointer" size={50} />
+                            <BsChevronDown className="text-primary animate-bounce hover:animate-none p-2 mt-5 sm:mt-10 rounded-full hover:bg-primary/20 duration-300 cursor-pointer" size={50} />
                         </Link>
                     </div>
 
                 </div>
-
 
 
             </div>
@@ -64,4 +62,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Hero

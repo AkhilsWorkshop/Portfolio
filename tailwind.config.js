@@ -11,6 +11,7 @@ module.exports = {
       "fourth": "#43665D",
       "fifth": "#111234",
       "sixth": "#112240",
+      bgDark: "#082A3A",
       black: "black",
     },
     extend: {},

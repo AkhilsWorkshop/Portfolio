@@ -3,7 +3,7 @@ import { CgMenu, CgClose } from "react-icons/cg";
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { items } from '../data/Pages';
+import { items } from '../data/navData';
 import { v4 as uuidv4 } from 'uuid';
 
 const Navbar = () => {

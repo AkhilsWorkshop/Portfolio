@@ -1,22 +1,22 @@
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Hero from "./Pages/Home/Hero";
+import About from "./Pages/Home/About";
+import Contact from "./Pages/Home/Contact";
 import { useState } from "react";
 import { useEffect } from "react";
 import Loading from "./components/Lazy/Loading";
-import Skills from "./components/Skills";
-import DotNav from "./DotNav";
-import ParticleBackground from "./components/ParticleBackground";
-import Project from "./components/Project";
+import Skills from "./Pages/Home/Skills";
+
+import Project from "./Pages/Home/Project";
+import Footer from "./layouts/Footer";
+import DotNav from "./layouts/DotNav";
+import Navbar from "./layouts/Navbar";
 
 function App() {
 
   const [load, setLoad] = useState(false)
 
   useEffect(() => {
-    setLoad(true)
+    setLoad(false)
     setTimeout(() => { setLoad(false) }, 2000)
   }, [])
 
@@ -29,8 +29,7 @@ function App() {
         <>
           <Navbar />
           <DotNav />
-          <ParticleBackground />
-          <Home />
+          <Hero />
           <About />
           <Project />
           <Skills />

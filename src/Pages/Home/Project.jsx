@@ -1,16 +1,13 @@
 import { FiGithub, FiExternalLink } from "react-icons/fi"
 import { FaTools } from "react-icons/fa"
-import { list } from "../data/projects"
+import { list } from "../../data/projects"
 import { v4 as uuidv4 } from 'uuid';
 
 const Project = () => {
 
     return (
         <>
-
-
-            <div name="Work" className="relative min-h-screen w-full bg-gradient-to-bl from-fourth via-fifth
-        to-black text-secondary">
+            <div name="Work" className="relative min-h-screen w-full bg-gradient-to-tr from-bgDark via-black to-bgDark text-secondary">
 
                 <div className="max-w-screen-lg mx-auto flex flex-col h-full px-10 py-20 sm:px-4">
 
@@ -20,8 +17,8 @@ const Project = () => {
                             data-aos="fade-right"
                             data-aos-once="true"
                             data-aos-delay="100">
-                            <p className="text-2xl md:text-3xl font-bold"><span className="text-primary">02. </span>Few things I've made</p>
-                            <div className="hidden sm:flex bg-third/30 h-[0.01rem] w-1/3 ml-5"></div>
+                            <p className="text-xl md:text-3xl font-bold"><span className="text-primary">02. </span>Few things I've made</p>
+                            <div className="flex bg-gradient-to-r from-third h-[0.1rem] grow ml-5"></div>
                         </div>
 
                         <div className="flex flex-col gap-5 items-center justify-center">
@@ -41,7 +38,7 @@ const Project = () => {
                                             data-aos-once="true"
                                             data-aos-duration="1500" />
 
-                                        <div className="flex flex-col sm:w-[70%] sm:min-h-[12rem] bg-sixth mt-2 sm:mt-0 p-5 rounded-md shadow-lg hover:shadow-xl gap-2"
+                                        <div className="flex flex-col sm:w-[70%] sm:min-h-[12rem] bg-gradient-to-br from-fifth via-bgDark to-fifth mt-2 sm:mt-0 p-5 rounded-md shadow-lg hover:shadow-xl gap-2"
                                             data-aos="fade-up"
                                             data-aos-once="true"
                                             data-aos-duration="1000" >

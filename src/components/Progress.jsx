@@ -1,21 +1,21 @@
 import { progressData } from "../data/ProgressData"
+import target from "../assets/Timeline/target.png"
 
 const Progress = () => {
     return (
-        <div>
-            <div className="flex items-center my-8 sm:my-0">
-                <div className="flex bg-gradient-to-l from-third to-fifth h-[0.01rem] grow mr-5"></div>
-                <p className="text-center text-third/70 font-bold text-lg">My Progress</p>
-                <div className="flex bg-gradient-to-r from-third to-fifth h-[0.01rem] grow ml-5"></div>
+        <div className="sm:bg-gradient-to-br from-fifth via-bgDark to-fifth sm:shadow-2xl rounded-md"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-delay="400">
+
+            <div className="flex justify-center items-center sm:bg-bgDark py-1 rounded-t-md sm:shadow-xl sm:border-b border-b-sixth">
+                <p className="text-third/70 font-semibold text-lg tracking-widest">My Progress</p>
             </div>
 
-            <ol className="mt-6 grid grid-flow-row sm:grid-flow-col auto-rows-fr auto-cols-fr gap-x-1 justify-center">
+            <ol className="mt-6 grid grid-flow-row sm:grid-flow-col gap-x-1 justify-center p-5">
 
                 {progressData.map((eachItem) => (
-                    <li class="relative flex flex-row sm:flex-col"
-                        data-aos="fade-right"
-                        data-aos-once="true"
-                        data-aos-delay={eachItem.delay}>
+                    <li class="relative flex flex-row sm:flex-col">
 
                         <div class="flex flex-col sm:flex-row items-center grow-0 shrink-0">
 
@@ -29,12 +29,14 @@ const Progress = () => {
 
                             <p className="mb-1 text-lg font-semibold leading-none text-[#ffffff]"> {eachItem.title}</p>
                             <p className="text-sm font-normal tracking-wider text-third">{eachItem.date}</p>
-                            <p className="my-3 text-sm text-secondary/90 font-semibold">{eachItem.shortDescription}</p>
+                            <p className="my-3 text-sm text-secondary/90 font-semibold sm:pr-4">{eachItem.shortDescription}</p>
 
                         </div>
 
                     </li>
                 ))}
+
+                <img src={target} alt="Success" className="z-10 w-10 aspect-square" />
 
             </ol>
 

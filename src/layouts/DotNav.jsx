@@ -1,7 +1,7 @@
 import { BsFillCircleFill } from "react-icons/bs"
 import { Link } from "react-scroll"
-import { items } from "./data/Pages"
 import { v4 as uuidv4 } from 'uuid';
+import { items } from "../data/navData";
 
 const DotNav = () => {
 
