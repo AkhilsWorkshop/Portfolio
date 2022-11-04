@@ -14,7 +14,7 @@ const About = () => {
 
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-10 sm:px-4 md:flex-row">
 
-                <div className="flex flex-col justify-center h-full gap-10">
+                <div className="flex flex-col justify-center h-full sm:gap-10">
 
                     <div className="flex flex-col-reverse sm:flex-row justify-center items-center text-third gap-5">
                         <div className="flex flex-col gap-10">

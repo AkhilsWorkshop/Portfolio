@@ -78,8 +78,8 @@ const Navbar = () => {
 
                                 ))}
                             </div>
-                            <div className="flex flex-col gap-10 cursor-pointer items-center pb-4 w-full">
-                                <div className=" mb-8 flex bg-gradient-to-r from-black via-primary to-black h-[0.1rem] w-full"></div>
+                            <div className="flex flex-col gap-10 cursor-pointer items-center pb-32 w-full">
+                                <div className="flex bg-gradient-to-r from-black via-primary to-black h-[0.1rem] w-full"></div>
                                 <a href="/Resume-AkhilKumar.pdf" target="_blank" rel="noreferrer" className="text-primary w-fit flex items-center rounded-md border-2 border-primary p-2">Resume
                                 </a>
                                 <div className="flex gap-3">
@@ -94,9 +94,6 @@ const Navbar = () => {
                                     </a>
                                 </div>
                             </div>
-
-                        </div>
-                        <div className=" bg-black h-12 w-full">
 
                         </div>
 

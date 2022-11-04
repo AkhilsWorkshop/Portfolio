@@ -44,10 +44,10 @@ const Project = () => {
                                                     <a href={github} target="_blank" rel="noreferrer" className="hidden sm:flex border px-2 py-1 rounded-md items-center gap-1 cursor-pointer duration-300 hover:text-primary hover:border-primary"><FiGithub size={18} />Code
                                                     </a>
 
-                                                    <FiGithub className="sm:hidden" size={25} href={github} target="_blank" rel="noreferrer" />
+                                                    <a href={github} target="_blank" rel="noreferrer"><FiGithub className="sm:hidden" size={25} /></a>
                                                     <a href={url} target="_blank" rel="noreferrer" className="hidden sm:flex border px-2 py-1 rounded-md items-center gap-1 cursor-pointer duration-300 hover:text-primary hover:border-primary">View Site <FiExternalLink size={18} />
                                                     </a>
-                                                    <FiExternalLink className="sm:hidden" size={30} href={url} target="_blank" rel="noreferrer" />
+                                                    <a href={url} target="_blank" rel="noreferrer"><FiExternalLink className="sm:hidden" size={30} /></a>
                                                 </div>
 
                                             </div>

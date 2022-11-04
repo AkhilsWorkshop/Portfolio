@@ -8,7 +8,7 @@ const Progress = () => {
             data-aos-once="true"
             data-aos-delay="400">
 
-            <div className="flex justify-center items-center sm:bg-bgDark py-1 rounded-t-md sm:shadow-xl sm:border-b border-b-sixth">
+            <div className="hidden sm:flex justify-center items-center sm:bg-bgDark py-1 rounded-t-md sm:shadow-xl sm:border-b border-b-sixth">
                 <p className="text-third/70 font-semibold text-lg tracking-widest">My Progress</p>
             </div>
 
@@ -27,7 +27,7 @@ const Progress = () => {
 
                         <div className="flex sm:flex-col h-full flex-col-reverse justify-end sm:justify-start mt-6 -mb-1 sm:-mb-0 ml-6 sm:ml-0">
                             <div>
-                                <p className="mb-1 text-lg font-semibold leading-none text-[#ffffff]"> {eachItem.title}</p>
+                                <p className="mb-1 sm:text-lg font-semibold leading-none text-[#ffffff]"> {eachItem.title}</p>
                                 <p className="text-sm font-normal tracking-wider text-third">{eachItem.date}</p>
                             </div>
                             <p className="my-3 text-sm text-secondary/90 font-semibold sm:pr-4">{eachItem.shortDescription}</p>
