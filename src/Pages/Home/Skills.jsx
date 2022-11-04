@@ -6,9 +6,9 @@ const Skills = () => {
 
 
     return (
-        <div name="Skills" className="h-screen w-full bg-gradient-to-br from-bgDark via-black to-bgDark text-secondary">
+        <div name="Skills" className="h-auto sm:h-screen w-full bg-gradient-to-br from-bgDark via-black to-bgDark text-secondary">
 
-            <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full px-10 py-20 sm:px-4">
+            <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full px-10 pt-20 sm:pt-0 sm:px-4">
 
                 <TitleBar name="I've worked on" sNo="03." />
 

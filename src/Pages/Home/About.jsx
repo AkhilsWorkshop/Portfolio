@@ -12,7 +12,7 @@ const About = () => {
     return (
         <div name="About" className="min-h-screen lg:h-screen w-full bg-gradient-to-br from-bgDark via-black to-bgDark text-secondary">
 
-            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-10 py-10 sm:px-4 md:flex-row">
+            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-10 sm:px-4 md:flex-row">
 
                 <div className="flex flex-col justify-center h-full gap-10">
 
@@ -30,7 +30,7 @@ const About = () => {
 
                         </div>
 
-                        <img src={profilePic} alt="My profile pic" className="w-2/4 md:w-1/4 rounded-full shadow-xl hover:sepia-0 border-2 border-sixth sm:sepia md:rounded-md mx-auto mt-10 md:mt-0 duration-700"
+                        <img src={profilePic} alt="My profile pic" className="w-2/4 md:w-1/4 rounded-full shadow-xl hover:sepia-0 border-2 border-sixth sm:sepia md:rounded-md mx-auto mt-16 md:mt-0 duration-700"
                             data-aos="fade-left"
                             data-aos-once="true"
                             data-aos-delay="300"></img>

@@ -10,7 +10,7 @@ const Project = () => {
         <>
             <div name="Work" className="relative min-h-screen w-full bg-gradient-to-tr from-bgDark via-black to-bgDark text-secondary">
 
-                <div className="max-w-screen-lg mx-auto flex flex-col h-full px-10 py-20 sm:px-4">
+                <div className="max-w-screen-lg mx-auto flex flex-col h-full px-10 pt-20 sm:px-4">
 
                     <div className="flex flex-col justify-center w-full">
 

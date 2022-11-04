@@ -1,9 +1,11 @@
 import auLogo from "../assets/Images/Home/About/Timeline/auLogo.png"
 import utaLogo from "../assets/Images/Home/About/Timeline/utaLogo.png"
 import codingLogo from "../assets/Images/Home/About/Timeline/codingLogo.png"
+import target from "../assets/Images/Home/About/Timeline/target.png"
 
 export const progressData = [
     {
+        order: "order-last sm:order-first",
         image: auLogo,
         title: "Anna University",
         date: "Sep 2017 - July 2021",
@@ -14,6 +16,7 @@ export const progressData = [
         delay: 300,
     },
     {
+        order: "order-3 sm:order-2",
         image: codingLogo,
         title: "Freelance Web Developer",
         date: "Jan 2018 - Aug 2021",
@@ -24,6 +27,7 @@ export const progressData = [
         delay: 400,
     },
     {
+        order: "order-2 sm:order-3",
         image: utaLogo,
         title: "University of Texas at Arlington",
         date: "Aug 2021 - May 2023",
@@ -32,5 +36,10 @@ export const progressData = [
         additionalClass: "from-primary to-[#00ff0d]",
         imgClass: "",
         delay: 500,
-    }
+    },
+    {
+        order: "order-first sm:order-last",
+        image: target,
+    },
+
 ]

@@ -3,7 +3,7 @@ import TitleBar from "../../components/Common/TitleBar"
 
 const Contact = () => {
     return (
-        <div name="Contact" className="h-screen w-full bg-gradient-to-bl from-bgDark via-black to-black text-secondary">
+        <div name="Contact" className="h-auto sm:h-screen w-full bg-gradient-to-bl from-bgDark via-black to-black text-secondary">
 
             <div className="max-w-screen-lg px-10 py-20 sm:px-4 mx-auto flex flex-col justify-center w-full h-full gap-7">
 

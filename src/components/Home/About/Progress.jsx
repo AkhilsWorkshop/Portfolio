@@ -15,28 +15,27 @@ const Progress = () => {
             <ol className="mt-6 grid grid-flow-row sm:grid-flow-col gap-x-1 justify-center p-5">
 
                 {progressData.map((eachItem) => (
-                    <li class="relative flex flex-row sm:flex-col">
+                    <li class={`relative flex flex-row sm:flex-col ${eachItem.order}`}>
 
-                        <div class="flex flex-col sm:flex-row items-center grow-0 shrink-0">
+                        <div className="flex flex-col-reverse sm:flex-row items-center grow-0 shrink-0">
 
                             <img src={eachItem.image} alt="AU logo" className={`z-10 w-10 aspect-square ${eachItem.imgClass}`} />
 
-                            <div class={`flex w-[1.5px] sm:w-full bg-gradient-to-b sm:bg-gradient-to-r h-full sm:h-[1.5px] ${eachItem.additionalClass}`}></div>
+                            <div className={`flex w-[1.5px] sm:w-full bg-gradient-to-b sm:bg-gradient-to-r h-full sm:h-[1.5px] ${eachItem.additionalClass}`}></div>
 
                         </div>
 
-                        <div className="flex flex-col my-6 sm:my-0 mt-0 sm:mt-6 ml-6 sm:ml-0">
-
-                            <p className="mb-1 text-lg font-semibold leading-none text-[#ffffff]"> {eachItem.title}</p>
-                            <p className="text-sm font-normal tracking-wider text-third">{eachItem.date}</p>
+                        <div className="flex sm:flex-col h-full flex-col-reverse justify-end sm:justify-start mt-6 -mb-1 sm:-mb-0 ml-6 sm:ml-0">
+                            <div>
+                                <p className="mb-1 text-lg font-semibold leading-none text-[#ffffff]"> {eachItem.title}</p>
+                                <p className="text-sm font-normal tracking-wider text-third">{eachItem.date}</p>
+                            </div>
                             <p className="my-3 text-sm text-secondary/90 font-semibold sm:pr-4">{eachItem.shortDescription}</p>
 
                         </div>
 
                     </li>
                 ))}
-
-                <img src={target} alt="Success" className="z-10 w-10 aspect-square" />
 
             </ol>
 
