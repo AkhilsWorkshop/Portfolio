@@ -18,7 +18,7 @@ const Contact = () => {
 
                         <input type="text" name="name" id="name" className="bg-gradient-to-br from-fifth via-bgDark to-fifth border border-sixth text-gray-900 text-sm rounded-lg focus:outline-none block w-full p-2.5" placeholder="Your name" required />
                         <input type="email" name="email" id="email" className="bg-gradient-to-br from-fifth via-bgDark to-fifth border border-sixth text-gray-900 text-sm rounded-lg focus:outline-none block w-full p-2.5" placeholder="Your email" required />
-                        <textarea name="message" id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gradient-to-br from-fifth via-bgDark to-fifth border border-sixth rounded-lg focus:outline-none" placeholder="Your message" required></textarea>
+                        <textarea name="message" id="message" rows="4" className="block p-2.5 w-full text-sm text-gray-900 bg-gradient-to-br from-fifth via-bgDark to-fifth border border-sixth rounded-lg focus:outline-none" placeholder="Your message" required></textarea>
 
                         <button className=" text-primary bg-transparent border-2 border-primary uppercase  shadow-xl gap-1 duration-300 hover:bg-primary/20 py-3 px-5 rounded-md mx-auto my-8">Send message</button>
 

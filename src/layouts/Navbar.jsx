@@ -27,13 +27,9 @@ const Navbar = () => {
 
                     <div className="hidden md:flex gap-5">
                         {items.map(({ item, offset }) => (
-                            <>
-
-                                <Link activeClass="text-primary" spy={true} key={uuidv4()} offset={offset} to={item} smooth duration={500} className="cursor-pointer text-secondary duration-300 hover:text-primary">
-                                    {item}
-                                </Link>
-
-                            </>
+                            <Link activeClass="text-primary" spy={true} key={uuidv4()} offset={offset} to={item} smooth duration={500} className="cursor-pointer text-secondary duration-300 hover:text-primary">
+                                {item}
+                            </Link>
                         ))}
                         <div className="md:flex gap-5">
                             <a href="https://github.com/AkhilsWorkshop" target="_blank" rel="noreferrer"

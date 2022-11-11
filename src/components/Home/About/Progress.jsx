@@ -1,5 +1,5 @@
 import { progressData } from "../../../data/progressData"
-import target from "../../../assets/Images/Home/About/Timeline/target.png"
+import { v4 as uuidv4 } from 'uuid';
 
 const Progress = () => {
     return (
@@ -15,7 +15,7 @@ const Progress = () => {
             <ol className="mt-6 grid grid-flow-row sm:grid-flow-col gap-x-1 justify-center p-5">
 
                 {progressData.map((eachItem) => (
-                    <li class={`relative flex flex-row sm:flex-col ${eachItem.order}`}>
+                    <li key={uuidv4()} className={`relative flex flex-row sm:flex-col ${eachItem.order}`}>
 
                         <div className="flex flex-col-reverse sm:flex-row items-center grow-0 shrink-0">
 
