@@ -5,7 +5,7 @@ import { BsChevronDown, BsDownload } from "react-icons/bs"
 const Hero = () => {
 
     return (
-        <div name="Home" className="h-screen w-full bg-gradient-to-tr from-bgDark via-black to-bgDark">
+        <div name="Home" className="h-screen w-full bg-gradient-to-tr from-bgDark via-black to-black">
 
             <div className="max-w-screen-lg mx-auto flex items-center justify-center h-full px-10 sm:py-0 sm:px-4">
 

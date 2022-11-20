@@ -1,16 +1,17 @@
-import Hero from "./pages/Home/Hero";
-import About from "./pages/Home/About";
-import Contact from "./pages/Home/Contact";
+import { Route, Routes } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
-import Loading from "./layouts/Loading";
-import Skills from "./pages/Home/Skills";
-import Project from "./pages/Home/Project";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Footer from "./layouts/Footer";
-import DotNav from "./layouts/DotNav";
+import Loading from "./layouts/Loading";
 import Navbar from "./layouts/Navbar";
+import Home from "./pages/App/Home";
+import Archive from "./pages/Certificates/Archive";
 
 function App() {
+
+  AOS.init();
 
   const [load, setLoad] = useState(false)
 
@@ -20,23 +21,21 @@ function App() {
   }, [])
 
   return (
-    <div>
+    <>
       {load ?
         <Loading />
         :
 
         <>
           <Navbar />
-          <DotNav />
-          <Hero />
-          <About />
-          <Project />
-          <Skills />
-          <Contact />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="certificates" element={<Archive />} />
+          </Routes>
           <Footer />
         </>
       }
-    </div>
+    </>
   );
 }
 

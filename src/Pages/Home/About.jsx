@@ -1,13 +1,8 @@
 import profilePic from "../../assets/Images/Home/About/myImage.png"
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import Progress from "../../components/Home/About/Progress";
 import TitleBar from "../../components/Common/TitleBar";
 
-
 const About = () => {
-
-    AOS.init();
 
     return (
         <div name="About" className="min-h-screen lg:h-screen w-full bg-gradient-to-br from-bgDark via-black to-bgDark text-secondary">

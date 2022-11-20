@@ -1,5 +1,4 @@
 import logo from '../assets/Images/layouts/Navbar/logo.svg';
-import { CgMenu, CgClose } from "react-icons/cg";
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
@@ -27,7 +26,7 @@ const Navbar = () => {
 
                     <div className="hidden md:flex gap-5">
                         {items.map(({ item, offset }) => (
-                            <Link activeClass="text-primary" spy={true} key={uuidv4()} offset={offset} to={item} smooth duration={500} className="cursor-pointer text-secondary duration-300 hover:text-primary">
+                            <Link activeClass="text-[#ABDF12]" spy={true} key={uuidv4()} offset={offset} to={item} smooth duration={500} className="cursor-pointer text-secondary duration-300 hover:text-primary">
                                 {item}
                             </Link>
                         ))}

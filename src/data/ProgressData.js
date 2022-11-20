@@ -18,9 +18,9 @@ export const progressData = [
     {
         order: "order-3 sm:order-2",
         image: codingLogo,
-        title: "Freelance Web Developer",
+        title: "Full Stack Developer (Freelance)",
         date: "Jan 2018 - Aug 2021",
-        shortDescription: "Built Dynamic web sites using ReactJS, JavaScript, Bootstrap, HTML5 & CSS3 for local business",
+        shortDescription: "Built Dynamic web sites using ReactJS, JavaScript, Bootstrap for local business",
         fullDescription: "",
         additionalClass: "from-[#ffbc04] to-primary",
         imgClass: "",
