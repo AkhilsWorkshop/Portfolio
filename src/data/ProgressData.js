@@ -20,7 +20,7 @@ export const progressData = [
         image: codingLogo,
         title: "Full Stack Developer (Freelance)",
         date: "Jan 2018 - Aug 2021",
-        shortDescription: "Built Dynamic web sites using ReactJS, JavaScript, Bootstrap for local business",
+        shortDescription: "Built Dynamic web applications using ReactJS, JavaScript, Bootstrap for local business",
         fullDescription: "",
         additionalClass: "from-[#ffbc04] to-primary",
         imgClass: "",

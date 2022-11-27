@@ -22,11 +22,11 @@ const Hero = () => {
                     <h2 className="text-third text-2xl sm:text-6xl font-bold"
                         data-aos="fade-up"
                         data-aos-once="true"
-                        data-aos-delay="300">I make web applications.</h2>
+                        data-aos-delay="300">Full Stack Developer</h2>
                     <p className="text-third py-4 sm:w-1/2"
                         data-aos="fade-up"
                         data-aos-once="true"
-                        data-aos-delay="400">I'm a passionate freelance web developer who loves to build & design web applications. Currently, I'm pursing my Masters in Computer Science at <span className="text-[#ABDF12]">
+                        data-aos-delay="400">I'm a passionate Full Stack Developer who loves to build & design web applications. Currently, I'm pursing my Masters in Computer Science at <span className="text-[#ABDF12]">
                             The University of Texas at Arlington.
                         </span>
                     </p>
@@ -36,7 +36,7 @@ const Hero = () => {
                         data-aos-once="true"
                         data-aos-delay="500">
 
-                        <a href="https://movie-home.ml/" target="_blank" rel="noreferrer" className="text-[#ABDF12] font-slogan border-2 border-[#ABDF12] my-2 px-6 py-3 rounded-md flex items-center gap-1 cursor-pointer duration-500 hover:bg-[#ABDF12]/20">Check out my latest Project<FiExternalLink size={18} />
+                        <a href="https://hellobuddy.ga/" target="_blank" rel="noreferrer" className="text-[#ABDF12] font-slogan border-2 border-[#ABDF12] my-2 px-6 py-3 rounded-md flex items-center gap-1 cursor-pointer duration-500 hover:bg-[#ABDF12]/20">Check out my latest Project<FiExternalLink size={18} />
                         </a>
 
                         <a href="/Resume-AkhilKumar.pdf" target="_blank" rel="noreferrer" className="text-[#ABDF12] font-slogan border-2 border-[#ABDF12] my-2 px-6 py-3 rounded-md hidden md:flex items-center gap-1 cursor-pointer duration-500 hover:bg-[#ABDF12]/20">
