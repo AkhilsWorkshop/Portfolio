@@ -20,12 +20,12 @@ const About = () => {
                                 data-aos="fade-up"
                                 data-aos-once="true"
                                 data-aos-delay="200">
-                                Hello! <span className="text-primary">I'm Akhil</span>, and I enjoy leveraging the newest technologies to design and construct online applications. I developed websites using Weebly and Wix during my school days, which sparked my interest in <span className="text-primary">web development</span>. I received my Undergraduate degree in Computer Science in 2021. I'm now a student at The University of Texas at Arlington pursuing my Masters in Computer Science.
+                                Hello! <span className="text-primary">I'm Akhil</span>, and I enjoy leveraging the newest technologies to design and construct applications. I developed websites using Weebly and Wix during my school days, which sparked my interest in <span className="text-primary">web development</span>. I received my Undergraduate degree in Computer Science in 2021. I'm now a student at The University of Texas at Arlington pursuing my Masters in Computer Science.
                             </p>
 
                         </div>
 
-                        <img src={profilePic} alt="My profile pic" className="w-2/4 md:w-1/4 rounded-full shadow-xl hover:sepia-0 border-2 border-sixth sm:sepia md:rounded-md mx-auto mt-16 md:mt-0 duration-700"
+                        <img src={profilePic} alt="My profile pic" className="w-2/4 md:w-1/4 rounded-full shadow-xl hover:scale-95 border-2 border-sixth md:rounded-md mx-auto mt-16 md:mt-0 duration-300"
                             data-aos="fade-left"
                             data-aos-once="true"
                             data-aos-delay="300"></img>
