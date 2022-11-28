@@ -25,10 +25,7 @@ const About = () => {
 
                         </div>
 
-                        <img src={profilePic} alt="My profile pic" className="w-2/4 md:w-1/4 rounded-full shadow-xl hover:scale-95 border-2 border-sixth md:rounded-md mx-auto mt-16 md:mt-0 duration-300"
-                            data-aos="fade-left"
-                            data-aos-once="true"
-                            data-aos-delay="300"></img>
+                        <img src={profilePic} alt="My profile pic" className="w-2/4 md:w-1/4 rounded-full shadow-xl hover:sepia border-2 border-sixth md:rounded-md mx-auto mt-16 md:mt-0 duration-300"></img>
 
                     </div>
 

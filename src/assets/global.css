@@ -34,4 +34,9 @@
         color: black;
         background: #ABDF12;
     }
+
+    .active {
+        color: #ABDF12;
+        scale: 150%;
+    }
 }

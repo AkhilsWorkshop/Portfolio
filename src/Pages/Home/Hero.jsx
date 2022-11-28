@@ -49,7 +49,7 @@ const Hero = () => {
                         data-aos-once="true"
                         data-aos-delay="500">
                         <Link to="About" smooth>
-                            <BsChevronDown className="text-primary animate-bounce hover:animate-none p-2 mt-5 sm:mt-10 rounded-full hover:bg-primary/20 duration-300 cursor-pointer" size={50} />
+                            <BsChevronDown className="text-primary p-2 mt-5 sm:mt-10 rounded-full hover:bg-primary/20 duration-300 cursor-pointer" size={50} />
                         </Link>
                     </div>
 
