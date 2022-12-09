@@ -3,6 +3,11 @@ const aws = "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Serv
 
 export const list = [
     {
+        id: 22,
+        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        title: "Typescript",
+    },
+    {
         id: 1,
         URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         title: "Javascript",
@@ -16,6 +21,17 @@ export const list = [
         id: 3,
         URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         title: "React",
+    },
+    {
+        id: 23,
+        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg",
+        title: "NodeJS",
+    },
+    {
+        id: 24,
+        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+        title: "Express",
+        property: "invert",
     },
     {
         id: 4,
@@ -65,6 +81,11 @@ export const list = [
         title: "Bootstrap",
     },
     {
+        id: 25,
+        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        title: "mongoDB",
+    },
+    {
         id: 16,
         URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
         title: "Firebase",
@@ -74,11 +95,11 @@ export const list = [
         URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
         title: "MySQL",
     },
-    {
-        id: 11,
-        URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-        title: "PostgreSQL",
-    },
+    // {
+    //     id: 11,
+    //     URL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+    //     title: "PostgreSQL",
+    // },
     {
         id: 15,
         URL: aws,
