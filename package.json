@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "dotenv": "^16.0.3",
+    "framer-motion": "^9.0.1",
     "gh-pages": "^4.0.0",
     "hamburger-react": "^2.5.0",
     "react-icons": "^4.4.0",
